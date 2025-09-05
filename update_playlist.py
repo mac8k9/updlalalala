@@ -31,7 +31,7 @@ def actualizar_playlists_individuales(urls_php):
     for i, url_php in enumerate(urls_php, start=1):
         url_m3u8 = obtener_url_m3u8(url_php)
         if url_m3u8:
-            nombre_canal = f"ECDF{i}"
+            nombre_canal = f"EDF{i}"
             contenido = f"#EXTM3U\n#EXTINF:-1,{nombre_canal}\n{url_m3u8}\n"
             nombre_archivo = f"{nombre_canal}.m3u"
             with open(nombre_archivo, "w") as f:
@@ -40,3 +40,4 @@ def actualizar_playlists_individuales(urls_php):
 
 if __name__ == "__main__":
     actualizar_playlists_individuales(urls_php)
+
