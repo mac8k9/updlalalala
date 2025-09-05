@@ -36,7 +36,7 @@ def actualizar_playlist(urls_php):
     for i, url_php in enumerate(urls_php, start=1):
         url_m3u8 = obtener_url_m3u8(url_php)
         if url_m3u8:
-            nombre_canal = f"ECDF{i}"
+            nombre_canal = f"EF{i}"
             contenido += f"#EXTINF:-1,{nombre_canal}\n{url_m3u8}\n"
     with open(archivo_m3u8, "w") as f:
         f.write(contenido)
@@ -44,3 +44,4 @@ def actualizar_playlist(urls_php):
 
 if __name__ == "__main__":
     actualizar_playlist(urls_php)
+
