@@ -1,3 +1,17 @@
 #EXTM3U
-#EXTINF:-1,Canal Ejemplo
-https://edge-rest-api.dallas.api.streamlatam.com/hls/utNtGr-DiMHMjA8DDcBOTc4CD8GNDQ_BTceJjUwCiMMNCwgCjUEJj43CiQNK2RyWWY/42341/0/chunklist.m3u8
+#EXTINF:-1,ECDF1
+https://edge-rest-api.dallas.api.streamlatam.com/hls/cdpmPF-MDoQBiYsNS0KESMmKjkXADkwMCoJEiMgNDobADowNCwTEignMj8VH3JiZ38/42341/0/chunklist.m3u8
+#EXTINF:-1,ECDF2
+https://edge-rest-api.dallas.api.streamlatam.com/hls/L7Z5DW-HGICEQ1_H3UeAAx1AGEDERZjGnIdAwxzHmIPERVjHnQHAwd0GGcBDl0xTSc/22525/0/chunklist.m3u8
+#EXTINF:-1,ECDF3
+https://edge-rest-api.dallas.api.streamlatam.com/hls/uYH1O6-CmQLczQRDXEVYTUbEmUIcC8NCHYWYjUdDGYEcCwNDHAMYj4aCmMKb2RfXyM/60715/0/chunklist.m3u8
+#EXTINF:-1,ECDF4
+https://edge-rest-api.dallas.api.streamlatam.com/hls/hEwFMz-NBYKOiwNMgYXLSgHLRIKPDIRNwEULigBMxEGPDERMwcOLiMGNRQII3lDYFQ/75440/0/chunklist.m3u8
+#EXTINF:-1,ECDF5
+https://edge-rest-api.dallas.api.streamlatam.com/hls/gyAoAL-BDoHASMrHy0BByY-AyQDDCEyAygGBCU-BToAACExAywAHiU1AjwFDz55UX9T/105907/0/chunklist.m3u8
+#EXTINF:-1,ECDF6
+https://edge-rest-api.dallas.api.streamlatam.com/hls/3ARJQV-HxwXG3cJFwoLAXMDCB4WEGkVEg0IAnMFFh0aEGoVFgsSAngCEBgVDyJHRVg/93590/0/chunklist.m3u8
+#EXTINF:-1,ECDF7
+https://edge-rest-api.dallas.api.streamlatam.com/hls/rF2usI-cykyCTMOdzUpHjIEaCE0DygScjIqHTEGdCE4DisSdjQwHTkFcCc3EGNAJWc/59245/0/chunklist.m3u8
+#EXTINF:-1,ECDF8
+https://edge-rest-api.dallas.api.streamlatam.com/hls/w9mNCM-KhwCDTdxKA4ZGjd7NxoECy1tLQkaGTR5KxoICi5tKQ8AGTx6LxwHFGY_elw/37244/0/chunklist.m3u8
