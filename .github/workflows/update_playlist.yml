@@ -1,9 +1,12 @@
-name: Actualizar Playlist IPTV
+name: Actualizar Playlists IPTV
 
 on:
   schedule:
     - cron: '0 */23 * * *'  # Ejecuta cada 23 horas
-  workflow_dispatch:       # Permite ejecución manual
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-playlist:
@@ -22,15 +25,17 @@ jobs:
       run: pip install requests
 
     - name: Ejecutar script de actualización
+      env:
+        STREAM_TOKEN: ${{ secrets.STREAM_TOKEN }}  # si usas token en script
       run: python update_playlist.py
 
     - name: Commit y push si hay cambios
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
-        git add playlist.m3u
+        git add *.m3u
         if ! git diff --cached --quiet; then
-          git commit -m "Actualización automática de playlist"
+          git commit -m "Actualización automática de playlists individuales"
           git push
         else
           echo "No hay cambios para commitear"
