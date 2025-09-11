@@ -10,6 +10,7 @@ urls_php = [
 	"https://90b449c9f8.stream.api.streamlatam.com/hls-url.php?token=MVKpo0-TUtBdmplXBIocXAUFhIh",
 	"https://fe64287420.stream.api.streamlatam.com/hls-url.php?token=UiNPYo-VXREVlx9YxcIRCsOKhcA",
 	"https://807a284ada.stream.api.streamlatam.com/hls-url.php?token=PbBx5N-UH9IfjB4aBsgKAoLIRso",
+	"https://f072c02ed2.stream.api.streamlatam.com/hls-url.php?token=eeeKlq-ZXhvTWlNbzwTcTU-Jjwb",
     # agrega más URLs aquí
 ]
 
@@ -44,4 +45,5 @@ def actualizar_playlist(urls_php):
 
 if __name__ == "__main__":
     actualizar_playlist(urls_php)
+
 
