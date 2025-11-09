@@ -2,15 +2,15 @@ import requests
 
 # Lista de URLs PHP con token para obtener cada stream
 urls_php = [
-    "https://53ffe34dfb.stream.api.streamlatam.com/hls-url.php?token=O80SW4-TyU6VVJnMmkLSXQWeGkC",
-    "https://da5aef90cb.stream.api.streamlatam.com/hls-url.php?token=C5qhwt-Qyh7bnJrPygwaTQadSg5",
-    "https://f0a29b69f0.stream.api.streamlatam.com/hls-url.php?token=TCCmyj-VF5Ja3x8SRo1ZyoNAxo8",
-	"https://dca610047d.stream.api.streamlatam.com/hls-url.php?token=DDOqZu-RFlFd19sThYpRDUdBBYg",
-	"https://2bbf7695f7.stream.api.streamlatam.com/hls-url.php?token=j8AeGe-aiVLY0JCMhg9WSUzeBg0",
-	"https://90b449c9f8.stream.api.streamlatam.com/hls-url.php?token=MVKpo0-TUtBdmplXBIocXAUFhIh",
-	"https://fe64287420.stream.api.streamlatam.com/hls-url.php?token=UiNPYo-VXREVlx9YxcIRCsOKhcA",
-	"https://807a284ada.stream.api.streamlatam.com/hls-url.php?token=PbBx5N-UH9IfjB4aBsgKAoLIRso",
-	"https://f072c02ed2.stream.api.streamlatam.com/hls-url.php?token=eeeKlq-ZXhvTWlNbzwTcTU-Jjwb",
+    "https://53ffe34dfb.stream.api.streamlatam.com/hls-url.php?token=1h26og-MXU4MGoZYmtucSdoKGtnO3xxMWhqMjExdTtzJjwiZTNzfHBkamtlYTBxbXV2bn5g",
+    "https://da5aef90cb.stream.api.streamlatam.com/hls-url.php?token=auBnmD-YWhIaGhJfxs2cwQ4NRs_OV8hLBgyMGEsBWNxBWw_FWtxXyB5GjNnMS0BNXdVPmMQ",
+    "https://f0a29b69f0.stream.api.streamlatam.com/hls-url.php?token=BxzR7J-QmVwVDJqciMKKQobOCMDY1ECISAOakIhPV8rC08yLVcrUQN0Ig89EiA5CS1bHW4o",
+	"https://dca610047d.stream.api.streamlatam.com/hls-url.php?token=kTPnt8-a0laaHFDXgk2angyFAk_ICMrDQoyKWsNF2NoeWYeB2toIypYCDN-OwwTNW4pNEIC",
+	"https://2bbf7695f7.stream.api.streamlatam.com/hls-url.php?token=NE8hEF-TlgybkBmT2EwWwYXBWE5EV0OHGI0GE4cf2VZB0MPb21ZXQ9JYDVPHh17M19XEVNq",
+	"https://90b449c9f8.stream.api.streamlatam.com/hls-url.php?token=1li9Ky-MXFjP04ZZjBhVTloLDBoH2JxNTNlFjE1LjRXODwmPjxXYnBgMWRBYTQqYlFobno7",
+	"https://fe64287420.stream.api.streamlatam.com/hls-url.php?token=mBD6Dm-bV9OMEFFSB1uWi00Ah1nEHYtGx5qGW0bAztYLGAIEzNYdixOHGtOPRoHbV58MlQW",
+	"https://807a284ada.stream.api.streamlatam.com/hls-url.php?token=lMFTg7-bFBMUmJERx8MeXc1DR8FMywsFBwIOmwUAVl7dmEHEVF7LC1BHgltPBUFD30mM1sU",
+	"https://f072c02ed2.stream.api.streamlatam.com/hls-url.php?token=X8svLK-WCV5cElwMiouUgsBeConGFAYYSkqEVhhNHtQClVyJHNQUBk0KytGCGAwLVZaBy4h",
     # agrega más URLs aquí
 ]
 
@@ -45,5 +45,6 @@ def actualizar_playlist(urls_php):
 
 if __name__ == "__main__":
     actualizar_playlist(urls_php)
+
 
 
